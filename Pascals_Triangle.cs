@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pascals_Triangle
 {
@@ -10,7 +6,7 @@ namespace Pascals_Triangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("podaj wysokość");
+            Console.WriteLine("Enter the height in rows");
             string input = Console.ReadLine();
             int to = Convert.ToInt16(input);
             int spaces = to / 5 * 2 + 1;
